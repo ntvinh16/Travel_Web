@@ -1,0 +1,545 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Phan header */
+.header {
+  position: relative;
+  height: 100px;
+}
+
+.header-extra {
+  background-color: #ffffff;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+  z-index: 1;
+  position: fixed;
+}
+
+/* Phan noi dung header */
+.hearder-content {
+  width: 100%;
+  align-self: center;
+}
+
+.content-main {
+  display: flex;
+}
+
+.logo {
+  flex-grow: 0.3;
+}
+
+.logo img {
+  width: 170px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.category {
+  flex-grow: 0.7;
+}
+
+.category-menu {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  align-self: center;
+}
+
+.menu-item {
+  margin: 8px 10px;
+  padding: 0 10px;
+  list-style: none;
+}
+
+.menu-item:hover {
+  opacity: 0.8;
+}
+
+.menu-item a:hover {
+  text-decoration: none;
+  color: #727475;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #727475;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+}
+
+.menu-item:last-child a {
+  background-color: #f3a46b;
+  color: #fff;
+  border-radius: 14px;
+  padding: 4px 10px;
+  font-size: 1.2rem;
+  margin: 0 10px;
+}
+
+/* Phan banner */
+/* Phan noi dung chinh */
+.content {
+  margin-top: 60px;
+}
+
+.suggest {
+  max-width: 1200px;
+  max-height: 660px;
+  margin: auto;
+}
+
+.suggest-introduce {
+  padding: 40px 0;
+}
+
+.suggest-text {
+  margin-bottom: 28px;
+}
+
+.suggest-text p {
+  font-size: 0.9rem;
+  color: gray;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  font-weight: 490;
+}
+
+.suggest-text h1 {
+  font-weight: 700;
+  color: #ce4747;
+}
+
+.quickview {
+  color: gray;
+  line-height: 2rem;
+}
+
+.suggest-relate {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.suggest-item:hover {
+  text-decoration: none;
+}
+
+.suggest-item img {
+  width: 220px;
+  height: 200px;
+  border: 1px solid #f1ecec;
+}
+
+.suggest-price {
+  width: 82px;
+  height: 26px;
+  text-align: center;
+  border-radius: 12px;
+  color: #ffffff;
+  position: absolute;
+  margin: -190px 0 0 160px;
+  align-self: flex-start;
+}
+
+.suggest-video {
+  position: relative;
+}
+
+.icon img {
+  text-align: center;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin: -360px 0 0 220px;
+}
+
+/* Phan dich vu */
+.service {
+  background-color: #555555;
+  width: 100%;
+  height: 700px;
+  margin-top: 60px;
+}
+
+.service-contact {
+  width: 1200px;
+  height: 550px;
+  margin: auto;
+}
+
+.service-header {
+  display: block;
+  text-align: center;
+  padding-top: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.service-header p {
+  font-size: 0.9rem;
+}
+
+.service-header h1 {
+  font-weight: 700;
+  border-bottom: 4px solid #f3a46b;
+}
+
+.service-list {
+  margin-top: 62px;
+}
+
+.service-item {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.service-item img {
+  width: 50px;
+  height: 50px;
+  margin: 6px 20px 0 0;
+}
+
+.service-info {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.service-detail {
+  display: flex;
+}
+
+/* Phan san pham */
+.opsion-product {
+  width: 1200px;
+  height: 640px;
+  margin: auto;
+}
+
+.opsion-content {
+  margin-top: 80px;
+}
+
+.summer-sale {
+  background-color: #f3a46b;
+  height: 560px;
+  width: 320px;
+  margin: auto;
+}
+
+.summer-sale-container {
+  display: block;
+  height: 430px;
+  width: 217px;
+  margin: auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.title p {
+  font-size: 1rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.title h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.time {
+  color: #ffffff;
+}
+
+.item {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.item h1 {
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.item h2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.img-content {
+  width: 100%;
+  height: 255px;
+}
+
+.product {
+  height: 560px;
+  border: 1px solid #f1f1f1;
+}
+
+/* .product-icon {
+    display: block;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-top: -25px;
+    margin-right: 20px;
+    float: right;
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+
+} */
+/* .product-icon img {
+    width: 26px;
+    height: 26px;
+    margin-top: 12px;
+    margin-left: 12px;
+} */
+.product-info {
+  margin: 28px 4px 0px 4px;
+}
+
+.location {
+  border-bottom: 1px solid #f1f1f1;
+  height: 60px;
+  margin: 0 16px 10px;
+}
+
+.capital {
+  color: #555555;
+}
+
+.capital:hover {
+  color: #555555;
+  text-decoration: none;
+}
+
+.capital h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.area {
+  display: flex;
+  color: #9a9a9a;
+}
+
+.area:hover {
+  color: #9a9a9a;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.area h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.travel-section {
+  height: 60px;
+  border-bottom: 1px solid #f1f1f1;
+  margin: 0 16px;
+}
+
+.travel-fit {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.travel-fit a {
+  color: #555555;
+  width: 100%;
+  float: left;
+  font-size: 0.8rem;
+}
+
+.travel-fit a:hover {
+  text-decoration: none;
+  color: #555555;
+  opacity: 0.8;
+}
+
+.travel-price {
+  float: right;
+}
+
+.travel-price span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #555555;
+}
+
+.description {
+  margin: 0 16px 10px;
+  color: #9a9a9a;
+  letter-spacing: 1.2px;
+}
+
+/* Phan gioi thieu */
+.introduce {
+  width: 1200px;
+  margin: auto;
+}
+
+.introduce-wrapper {
+  margin-top: 20px;
+}
+
+.introduce-header {
+  text-align: center;
+}
+
+.introduce-body {
+  margin-top: 50px;
+}
+
+.introduce-box {
+  display: flex;
+  border: 1px solid #f1f1f1;
+  width: 100%;
+}
+
+.introduce-box img {
+  width: 50%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+  display: table-cell;
+}
+
+.introduce-info {
+  padding: 30px;
+  width: 50%;
+}
+
+.introduce-info p {
+  color: #9a9a9a;
+  letter-spacing: 1.6px;
+  margin-bottom: 6px;
+}
+
+.introduce-info h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #555555;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.introduce-info span {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: #9a9a9a;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-bottom: 18px;
+}
+
+/* Phan footer */
+.footer-container {
+  margin-top: 56px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../Img/img-background/background_01.jpg);
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+
+.footer-main {
+  position: absolute;
+  height: 289px;
+  width: 100%;
+  padding: 30px;
+  margin-top: 80px;
+  background-color: #ffffff;
+}
+
+.footer-wrapper {
+  padding: 0 20px;
+}
+
+.footer-wrapper img {
+  width: 150px;
+  height: 35px;
+}
+
+.footer-wrapper p {
+  color: #878787;
+  font-size: 1rem;
+  line-height: 27px;
+  margin-top: 40px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+}
+
+.footer-social img {
+  width: 22px;
+  height: 22px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.footer-items h6 {
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 25px;
+  line-height: 14px;
+  color: #555555;
+}
+
+.footer-items p {
+  margin: 0;
+  color: #9a9a9a;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 27px;
+}
+
+.footer-last {
+  background-color: #f3a46b;
+  position: absolute;
+  height: 52px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 360px;
+}
+
+.footer-last h6 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
